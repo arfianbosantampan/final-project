@@ -38,14 +38,14 @@
             android:id="@+id/adduser"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="adduser"
+
             android:text="ADD USER" />
 
         <Button
             android:id="@+id/tambahan"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="listuser"
+
             android:text="LiST USER" />
 
         <Button

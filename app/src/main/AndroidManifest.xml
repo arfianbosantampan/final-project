@@ -23,7 +23,10 @@
             android:name=".Main2Activity"
             android:label="@string/title_activity_main2"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".activity_jadwal"></activity>
+        <activity android:name=".activity_jadwal" />
+        <activity android:name=".Biodataactivity" />
+        <activity android:name=".Tugasactivity" />
+        <activity android:name=".Remidiactivity"></activity>
     </application>
 
 </manifest>

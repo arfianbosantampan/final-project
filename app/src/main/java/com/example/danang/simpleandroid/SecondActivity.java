@@ -20,6 +20,22 @@ public class SecondActivity extends AppCompatActivity {
     }
 
     public void bt1(View view) {
-        Intent intent = new Intent()
+        Intent intent = new Intent(SecondActivity.this, Biodataactivity.class);
+        startActivity(intent);
+    }
+
+    public void bt2(View view) {
+        Intent intent = new Intent(SecondActivity.this, Tugasactivity.class);
+        startActivity(intent);
+    }
+
+    public void bt3(View view) {
+        Intent intent = new Intent(SecondActivity.this, activity_jadwal.class);
+        startActivity(intent);
+    }
+
+    public void bt4(View view) {
+        Intent intent = new Intent(SecondActivity.this, Main2Activity.class);
+        startActivity(intent);
     }
 }

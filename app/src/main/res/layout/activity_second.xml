@@ -73,7 +73,7 @@
                     android:layout_height="64dp"
                     android:background="@color/deeppurple"
                     android:src="@drawable/fg1"
-
+                    android:onClick="bt2"
                     android:padding="10dp"/>
                 <TextView
                     android:layout_width="wrap_content"
@@ -124,6 +124,7 @@
                 <ImageView
                     android:layout_width="64dp"
                     android:layout_height="64dp"
+                    android:onClick="bt3"
                     android:background="@color/colorPrimaryDark"
                     android:src="@drawable/fg1"
                     android:padding="10dp" />
@@ -168,6 +169,7 @@
                 <ImageView
                     android:layout_width="64dp"
                     android:layout_height="64dp"
+                    android:onClick="bt4"
                     android:background="@color/darkblue"
                     android:src="@drawable/fg1"
                     android:padding="10dp" />
